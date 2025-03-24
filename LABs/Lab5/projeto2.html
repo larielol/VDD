@@ -1,0 +1,93 @@
+<!--
+	THIS EXAMPLE WAS DOWNLOADED FROM https://echarts.apache.org/examples/en/editor.html?c=line-smooth&code=PYBwLglsB2AEC8sDeAoWtJgDYFMBcya6GOAHmAQOQBqAhgE4S0DnAx8LACa2wDGAFgFcAbj1q9BAW0FZa3WCGD1YtaBwAUAJgAMARgAsK2Ds0BmAJSwAtLABitAF45o8gMINotAF8AjHjYAVWhAcemAAQ-tYAAUAIUoAGiJ0XAAzClhKXmcwUMoiAF8k9DBgYCxIEAJUYgxGAHN60KpaUggAZ0TklTb26OAIaFz6au6SgE8Qqnb-OWAAd3zagsLirlowWgAtMskCAG1umtqMSfxMwfaIThwl4iKjsdOpzPasa7zulfQAXTXSACCvVGtTAZyovA2OHqSnGXVq3E2Bx0BgSxj0AFY0SiAGzYvQAdnxugAHMSAJz4nRU3RUzRU0x_bqeSTnSgAtR3B7ocZAjog4hgl6UURYQS3NboFlsuiMFjsdawVxCUSwdSSSTmLlrdqhCA4doHR4ndZI2D7XSafQAOjx1l0BOtlOs5N01qJ1hJpmtWNgGIx3tMaKsmhxOKdaPJ3v0wZM1rJfox2mttOsGJxmmt2iZJqFbPe0AlT3akjKYH4BDA9HFkuIEFykgAymDcAKTbxykoqABibR97S2Wx3ZZfIg_FAFADcQA
+	⚠ Please be aware that this chart is not an official demo of Apache ECharts but is made by user-generated code.
+-->
+<!DOCTYPE html>
+<html lang="en" style="height: 100%">
+<head>
+  <meta charset="utf-8">
+</head>
+<body style="height: 100%; margin: 0">
+  <div id="container" style="height: 100%"></div>
+
+  
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+  
+  <!-- Uncomment this line if you want to dataTool extension
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5/dist/extension/dataTool.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to use gl extension
+  <script type="text/javascript" src="https://echarts.apache.org/en/js/vendors/echarts-gl/dist/echarts-gl.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to echarts-stat extension
+  <script type="text/javascript" src="https://echarts.apache.org/en/js/vendors/echarts-stat/dist/ecStat.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to echarts-graph-modularity extension
+  <script type="text/javascript" src="https://echarts.apache.org/en/js/vendors/echarts-graph-modularity/dist/echarts-graph-modularity.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to use map
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@4.9.0/map/js/world.js"></script>
+  -->
+  <!-- Uncomment these two lines if you want to use bmap extension
+  <script type="text/javascript" src="https://api.map.baidu.com/api?v=3.0&ak=YOUR_API_KEY"></script>
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5/dist/extension/bmap.min.js"></script>
+  -->
+
+  <script type="text/javascript">
+    var dom = document.getElementById('container');
+    var myChart = echarts.init(dom, null, {
+      renderer: 'canvas',
+      useDirtyRect: false
+    });
+    var app = {};
+    
+    var option;
+
+    option = {
+  title: {
+    text: 'Variação da chuva acumulada por ano (2014 a 2023) - Fazenda Carnaúba - Taperoá - PB',
+    left: 'center'
+  },
+  tooltip: {
+    trigger: 'axis',
+    axisPointer: {
+      type: 'shadow'
+    }
+  },
+  dataZoom: [
+    {
+      type: 'inside'
+    },
+    {
+      type: 'slider'
+    }
+  ],
+  xAxis: {
+    type: 'category',
+    data: [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023],
+    name: 'Ano'
+  },
+  yAxis: {
+    type: 'value',
+    name: 'Variação da Chuva (mm)'
+  },
+  series: [
+    {
+      data: [124.6, -17.9, -91.7, -83.5, 553.3, -266.9, 93.4, -202.8, 550.1, -562.0],
+      type: 'line',
+      smooth: true,
+      itemStyle: {
+        color: '#0000FF'
+      }
+    }
+  ]
+};
+
+    if (option && typeof option === 'object') {
+      myChart.setOption(option);
+    }
+
+    window.addEventListener('resize', myChart.resize);
+  </script>
+</body>
+</html>
