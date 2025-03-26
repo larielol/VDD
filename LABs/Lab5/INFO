@@ -1,0 +1,98 @@
+Disciplina: Visualização de Dados [2024.2]
+
+PRAZOS (FIRMES!)
+
+Data de entrega:                                        24/03/2025 até 17:40
+
+ENUNCIADO / ROTEIRO DA ATIVIDADE (INDIVIDUAL)
+
+Nesta atividade individual, vamos colocar a mão na massa e implementar um projeto de visualização interativa de dados. Neste laboratório, o objetivo é que você experimente a utilização da biblioteca Apache ECharts, e então aplique os conceitos aprendidos até aqui para produção de visualizações interativas eficazes tanto em aspectos científicos como estéticos.
+
+Para isso, você deve produzir uma visualização em JavaScript + HTML, utilizando exclusivamente o Apache Echarts. Sugere-se que você inicie sua missão a partir de algum exemplo editável disponível na página de exemplos. Note que, para isso, você vai precisar definir o tipo de visualização antes de começar a implementar. A partir do exemplo escolhido, você vai precisar editar o código para realizar a carga de dados, além de eventuais tratamentos/manipulações sobre esses dados, e então implementar o(s) seguinte(s) projeto(s) de visualização descritos de forma objetiva a seguir.
+
+DATASET
+
+O dataset deste laboratório compreende a distribuição pluviométrica (volume de chuva) do período entre 2013 e 2023, a partir de medições realizadas na Fazenda Carnaúba, localizada no município de Taperoá - PB (disponível aqui).
+
+PROJETO DE VISUALIZAÇÃO 1
+
+    História a ser contada: Volume de chuva acumulada na Fazenda Carnaúba por ano em um período de 10 anos (2014 a 2023);
+    Mecanismo: visualização interativa para apresentação oral da visualização exibida em projetor de tela, além de publicação em página da web;
+    Público-alvo: público em geral, em especial os alunos do curso de ciência da computação que estiverem no LCC;
+    Ações esperadas pelo público: entender a distribuição de chuva a partir de um ponto na região do Cariri paraibano;
+    Mapeamento dos dados necessários para a visualização: ano e total (mm);
+    Tipo de visualização escolhido e a devida justificativa pela escolha: Fica a seu critério o tipo, decisões de escalas, etc. Pense sempre nos aspectos estéticos e científicos trabalhados na disciplina;
+    Elementos de interação: 
+
+    Tooltip (exibir valor total ao passar mouse sobre elemento de escala que represente o total medido);
+    Zoom (permitir aumentar ou diminuir o tamanho da série temporal visualizada);
+
+    Esboço da visualização: não é obrigatório. Você pode esboçar no papel ou fazer uma prova de conceito já diretamente em JS+HTML e ir evoluindo;
+    Título dado à visualização: sugestão "Volume de chuva acumulada por ano (2014 a 2023) - Fazenda Carnaúba - Taperoá - PB".
+
+PROJETO DE VISUALIZAÇÃO 2
+
+    História a ser contada: Variação da chuva acumulada na Fazenda Carnaúba em relação ao ano anterior (entre 2014 e 2023);
+    Mecanismo: visualização interativa para apresentação oral da visualização exibida em projetor de tela, além de publicação em página da web;
+    Público-alvo: público em geral, em especial os alunos do curso de ciência da computação que estiverem no LCC;
+    Ações esperadas pelo público: entender com clareza a variação da distribuição de chuva a partir de um ponto na região do Cariri paraibano;
+    Mapeamento dos dados necessários para a visualização: ano e variação em relação ao ano anterior (mm) - note que você vai precisar transformar o dataset. Você pode fazer diretamente na visualização, com JavaScript, ou manipular o CSV diretamente com editor de texto ou usando um software que permite a edição em formato tabular;
+    Tipo de visualização escolhido e a devida justificativa pela escolha: Fica a seu critério o tipo, decisões de escalas, etc. Pense sempre nos aspectos estéticos e científicos trabalhados na disciplina;
+    Elementos de interação: 
+
+    Tooltip (exibir valor da variação em mm ao passar mouse sobre elemento de escala que represente tal medida);
+    Zoom (permitir aumentar ou diminuir o tamanho da série temporal visualizada);
+    Filter (permitir filtrar a exibição a partir de intervalo mínimo/máximo da variação anual. Ex: quero exibir apenas os anos com variação negativa - menos chuva).
+
+    Esboço da visualização: não é obrigatório. Você pode esboçar no papel ou fazer uma prova de conceito já diretamente em JS+HTML e ir evoluindo;
+    Título dado à visualização: sugestão "Variação da chuva acumulada por ano (2014 a 2023) - Fazenda Carnaúba - Taperoá - PB".
+
+ENTREGAS
+
+1. Dentro do prazo de entrega estabelecido nesta tarefa, o grupo deve enviar, exclusivamente no Formulário Google compartilhado pelo professor, os seguintes artefatos:
+
+    Visualização interativa do Projeto 1, em formato HTML (o dataset precisa vir embutido no arquivo), exportado a partir do botão "Download" do ECharts, com o nome do arquivo no seguinte formato: "Lab5-PrimeiroNomeUltimoNome-Projeto1.html".
+
+    Visualização interativa do Projeto 2, em formato HTML (o dataset precisa vir embutido no arquivo), exportado a partir do botão "Download" do ECharts, com o nome do arquivo no seguinte formato: "Lab5-PrimeiroNomeUltimoNome-Projeto2.html".
+
+Para os nomes dos arquivos, considere o exemplo do aluno chamado "FULANO DE TAL SILVA SANTOS". Seus arquivos terão, em seus nomes, o prefixo: "Lab5-FulanoSantos-".
+
+2. Também dentro do prazo de entrega desta tarefa, cada estudante deverá publicar o software produzido (ou seja, a visualização interativa) em seu GitHub pessoal. Para fazer isso, o primeiro passo é você, após ter finalizado a edição da sua visualização, clicar no botão “Downloads” localizado na parte inferior da tela de edição do ECharts. A partir daí, você deve seguir os seguintes passos:
+
+2.1) acesse sua conta do github
+
+2.2) crie um novo repositório público chamado (copie e cole): visualizacao-de-dados_lab5
+
+2.3) clique no link “creating a new file”
+
+2.4) digite o seguinte nome para o novo arquivo (sem aspas): “projeto1.html”
+
+2.5) certifique-se que o arquivo está localizado na pasta “main” do novo repositório
+
+2.6) na área de edição do novo arquivo, cole todo o código do arquivo HTML do projeto 1 que você baixou antes de iniciar este passo a passo
+
+2.7) clique em “Commit changes..” e confirme o salvamento das mudanças do novo arquivo
+
+2.8) na página principal do repositório, clique em “Add file” -> “Create new file”
+
+2.9) repita os passos 2.4 até 2.7, considerando que está salvando o “projeto2.html”
+
+2.10) na página principal do repositório, clique em “Settings” (menu superior)
+
+2.11) clique em “Pages” (menu lateral)
+
+2.12) no campo “Branch”, clique em “None” e selecione a opção “main”
+
+2.13) clique em “Save”
+
+2.14) tente abrir as URLs (substitua username pelo seu nome de usuário):
+
+https://username.github.io/visualizacao-de-dados_lab5/projeto1.html
+
+https://username.github.io/visualizacao-de-dados_lab5/projeto2.html
+
+Dica: você pode editar o README.md do seu repositório (ou criar um) e adicionar informações e apontadores para que as pessoas acessem suas visualizações interativas.
+
+Após seguir estes passos corretamente, seu repositório vai estar parecido com esse: https://github.com/maxmcz/visualizacao-de-dados_lab5 
+
+ATENÇÃO: Só receberá o ponto de participação quem cumprir todos os requisitos de entrega deste laboratório dentro do prazo da atividade (e estiver presente em sala na hora da respectiva aula prática)!
