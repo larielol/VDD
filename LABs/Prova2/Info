@@ -1,1 +1,46 @@
 Prova 2 foi feita pelo grupo B no google colab com o dataset escolhido pela equipe: consiste numa visualização estática.
+
+Disciplina: Visualização de Dados [2024.2]
+
+PRAZOS (FIRMES!)
+
+Data de entrega (formulário):                                        16/03/2025
+
+Data de entrega (apresentações):                17/03 e 20/03/2025 (nos horários de aula)
+
+ENUNCIADO / ROTEIRO DA ATIVIDADE (EM GRUPO)  –  PROVA 2
+
+Esta avaliação consiste de um laboratório de visualização estática em grupo. Portanto, reúna o seu grupo, mesma formação de grupo do LAB 1.
+
+O grupo deve construir um único notebook Python, utilizando o Google Colab disponível a partir da conta Google Acadêmica de seus membros e compartilhado entre eles para edição colaborativa. Neste notebook, o grupo deve implementar o passo a passo necessário para carga e tratamento de dados, com os comentários necessários (e objetivos) sobre cada passo/etapa realizado(a), e então implementar os dois projetos de visualização que foram concebidos e entregues no LAB 1 desta disciplina, considerando o dataset exclusivo do grupo.
+
+Na implementação, o grupo deve seguir exatamente como especificado nos projetos de visualização que foram concebidos durante o LAB 1 e evoluídos pelo grupo desde então. Lembre-se que o projeto é de implementação de visualização estática. Logo, o uso de bibliotecas e/ou implementação de visualização interativa acarretará em descontos significativos na nota desta atividade.
+
+ENTREGAS
+
+1. [70% da nota] Dentro do prazo de entrega estabelecido nesta tarefa, o grupo deve enviar, exclusivamente no Formulário Google compartilhado pelo professor, os seguintes artefatos:
+
+    Notebook Python, em formato IPYNB, contendo o notebook produzido na íntegra, mantido todos os outputs de cada execução de bloco de código (use a opção Ficheiro -> Transferir -> .ipynb), com o nome do arquivo no seguinte formato: "Prova2-Grupo_X.ipynb", trocando X pela respectiva letra do grupo.
+
+    Apresentação, em formato PDF, contendo apenas três slides: um para identificação da letra do grupo e de seus membros (nomes completos), outro contendo a imagem da visualização 1 e outro contendo a imagem da visualização 2, com o nome do arquivo no seguinte formato:  "Prova2-Grupo_X-Apresentação.pdf", trocando X pela respectiva letra do grupo.
+
+    Documento dos projetos de visualização (versão final), em formato PDF, seguindo estritamente o modelo disponibilizado no LAB 1, com o nome do arquivo no seguinte formato:  "Prova2-Grupo_X-Projetos.pdf", trocando X pela respectiva letra do grupo.
+
+ 
+
+2. [30% da nota] Apresentação e defesa oral, em grupo, na sala de aula (ou laboratório) em datas prováveis que serão divulgadas no Discord da turma. A ordem e o dia de apresentação dos grupos será sorteado em sala, minutos antes do início de cada apresentação. Todos os membros precisam estar presentes nas datas que serão destinadas para as apresentações. O(s) membro(s) que estiverem ausentes no momento da apresentação do grupo ficarão sem essa parte da nota.
+
+Cada grupo terá 10 minutos para apresentação + 5 minutos para discussão e interação com o público alvo (perguntas e respostas). Durante a apresentação, além de contar as histórias com as visualizações, o grupo precisa falar os seguintes aspectos de desenvolvimento do trabalho (sugere-se usar essa ordem na apresentação e cada membro falar de um aspecto):
+
+    [1 min] Contexto do dataset usado: falar brevemente sobre os dados utilizados (do que se trata? onde foi obtido? como provavelmente os dados foram coletados?);
+    [3 min] Contar a história da visualização 1;
+    [3 min] Contar a história da visualização 2;
+    [1 min] Principais dificuldades enfrentadas na manipulação dos dados;
+    [1 min] Principais dificuldades enfrentadas no uso da biblioteca para construir as visualizações (coisas que fizeram tomar mais tempo do que o esperado);
+    [1 min] Principais mudanças realizadas nos projetos de visualização após o LAB 1 e os motivos que levaram o grupo a fazê-las.
+
+ 
+
+Os grupos serão avaliados pela qualidade do trabalho entregue e apresentado (estética + ciência), juntamente com o cumprimento das especificações do enunciado/roteiro desta atividade, e aplicação das boas práticas de visualização estática aprendidas nas aulas até aqui.
+
+Quem deixar de entregar a atividade proposta dentro do prazo estabelecido, ou deixar de cumprir algum ponto do que está especificado neste roteiro, ficará com nota zero na segunda nota da disciplina. Leia todo o roteiro com atenção, tire eventuais dúvidas antecipadamente, tenha cuidado com os prazos e certifique-se de submeter as informações corretas no formulário de envio!
