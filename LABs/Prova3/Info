@@ -1,0 +1,72 @@
+Prova 3 = Labiratório 6
+
+Disciplina: Visualização de Dados [2024.2]
+
+PRAZOS (FIRMES!)
+
+Data de entrega (formulário):                                        06/04/2025
+
+Data de entrega (apresentações):                07/04 e 10/04/2025 (nos horários de aula)
+
+
+ENUNCIADO / ROTEIRO DA ATIVIDADE (EM GRUPO)  –  PROVA 3
+
+Nesta atividade individual, vamos colocar a mão na massa e implementar um projeto de visualização interativa de dados. Neste laboratório, o objetivo é que você experimente a utilização da biblioteca Apache ECharts, e então aplique os conceitos aprendidos até aqui para produção de visualizações interativas eficazes tanto em aspectos científicos como estéticos.
+
+Para isso, você deve produzir uma visualização em JavaScript + HTML, utilizando exclusivamente o Apache Echarts. Sugere-se que você inicie sua missão a partir de algum exemplo editável disponível na página de exemplos. Note que, para isso, você vai precisar definir o tipo de visualização antes de começar a implementar. A partir do exemplo escolhido, você vai precisar editar o código para realizar a carga de dados, além de eventuais tratamentos/manipulações sobre esses dados, e então implementar o(s) seguinte(s) projeto(s) de visualização descritos de forma objetiva a seguir. Ao finalizar a visualização interativa, a mesma deverá ser incorporada em um arquivo HTML template, onde o respectivo link e detalhes são apresentados mais adiante, neste enunciado.
+
+DATASET
+
+Cada grupo terá um dataset exclusivo, selecionado pela equipe de ensino da disciplina através de um trabalho de curadoria. As informações do dataset do seu grupo podem ser localizadas neste link. Certifique-se de ler com atenção e assegurar-se que está trabalhando com o dataset devidamente alocado para o seu grupo. Não será admitida justificativa que remeta a falhas de interpretação de texto.
+
+PROJETO DE VISUALIZAÇÃO INTERATIVA
+
+História a ser contada: O grupo deve se reunir, analisar o dataset do grupo, identificar e definir, no mínimo, 2 histórias para contar em uma mesma visualização interativa, a partir da exploração e disponibilização de recursos de interatividade;
+Mecanismo: visualização interativa para apresentação oral da visualização exibida em projetor de tela, além de publicação em página pública da web usando, obrigatoriamente, o modelo HTML disponibilizado neste enunciado (ver abaixo);
+Público-alvo: público em geral, em especial os alunos do curso de ciência da computação que estiverem no LCC2 e os frequentadores de seu site/github pessoal;
+Ações esperadas pelo público: a ser definido pelo grupo;
+Mapeamento dos dados necessários para a visualização: a ser definido pelo grupo;
+Tipo de visualização escolhido e a devida justificativa pela escolha: também fica a critério do grupo a escolha do tipo, decisões de escalas, etc. Tenha sempre em mente os aspectos estéticos e científicos trabalhados na disciplina, juntamente com as boas práticas de visualização, pois tudo isso será objeto de avaliação;
+Elementos de interação: o grupo deve implementar, no mínimo, três elementos de interação, sendo que um deles precisa, obrigatoriamente, ser do tipo filtro (filter);
+Esboço da visualização: não é obrigatório. O grupo pode esboçar no papel ou fazer uma prova de conceito já diretamente em JS+HTML e ir evoluindo;
+Título dado à visualização: a critério do grupo, buscando ser o mais claro e abrangente possível com a visualização produzida;
+E mais um requisito: oferecer interface intuitiva, de modo que o usuário saiba o que pode fazer ao explorar os dados visualizados. Sugestões:
+O grupo pode usar ícones intuitivos sobre as funções que podem ser usadas para explorar a visualização interativamente.
+O grupo pode (deve!) editar a página HTML e adicionar um pouco de texto explicando o que pode ser feito (ver template/modelo).
+ALÉM DISSO, NÃO ESQUEÇA DE:
+
+Usar o modelo disponibilizado na disciplina: baixe aqui e edite o que for necessário para incluir a visualização e os dados. Note que o modelo estabelece um padrão visual para as entregas e dá exemplo de como o dataset da visualização deve ficar incorporado no próprio arquivo html. ISSO DEVE SER SEGUIDO PELO SEU GRUPO! Você deve apenas atualizar as informações de texto e substituir a visualização atual pela visualização criada pelo seu grupo, sem modificar nenhuma estrutura/formatação.
+Considerar o mantra "overview first, zoom and filter, then details on demand" em sua implementação. Uso do zoom fica a critério do grupo.
+Não esquecer de considerar:
+Aspectos envolvendo design: título adequado, legendas, disposição dos elementos, saturação, paleta de cores, etc.
+Aspectos envolvendo o tipo de visualização escolhido: o grupo deve decidir o que melhor se adequa para o contexto dos dados e do projeto da visualização em si.
+Mecanismo: publicação em site da web.
+Lembrar que o grupo deve entregar um produto acabado (ou o mais próximo disso) até o prazo final desta atividade (não considere prorrogação! estamos no fim do semestre e não há tempo pra isso!). Melhor entregar algo parcial do que não entregar nada.
+Certifique-se do arquivo HTML final possuir tudo que for necessário para a visualização (dados, CSS, código JS, etc).
+Arquivos que não abram e/ou que não mostrem nada, ocasionarão nota zero nesta entrega.
+ENTREGAS
+
+1. [70% da nota] Dentro do prazo de entrega estabelecido nesta tarefa, o grupo deve enviar, exclusivamente no Formulário Google compartilhado pelo professor, os seguintes artefatos:
+
+Visualização interativa do Projeto, em formato HTML (com todo código JavaScript, CSS e HTML, incluíndo todo dataset, em um arquivo único HTML), usando estritamente o modelo disponibilizado neste enunciado, com o nome do arquivo no seguinte formato: "Lab6-GrupoY-VisualizacaoFinal.html", substituindo Y pela respectiva letra do grupo.
+
+Alternativamente, o grupo poderá enviar um arquivo ZIP que deverá conter o arquivo HTML e os arquivos dependentes (dados em CSV, JSON, SVG, BIN, SHAPEFILE, etc). Note que a visualização precisa rodar localmente, bastando apenas descompactar o conteúdo do zip em um diretório. Caso não rode dessa forma, o grupo será penalizado!
+
+URL do site onde está publicada a visualização, que deve estar funcional no momento da submissão do formulário e também quando a equipe de ensino for realizar a análise e correção. Sugere-se que utilizem o github para fazer tal publicação, seguindo o mesmo pipeline de publicação da página que foi seguido no LAB 5.
+
+2. [30% da nota] Apresentação e defesa oral, em grupo, na sala de aula (ou laboratório) em datas prováveis que serão divulgadas no Discord da turma (e também no formulário de submissão). A ordem e o dia de apresentação dos grupos será sorteado em sala, minutos antes do início de cada apresentação. Todos os membros precisam estar presentes nas datas que serão destinadas para as apresentações. O(s) membro(s) que estiverem ausentes no momento da apresentação do grupo ficarão sem essa parte da nota.
+
+
+Cada grupo terá 10 minutos para apresentação + 5 minutos para discussão e interação com o público alvo (perguntas e respostas). Durante a apresentação, além de contar as histórias com as visualizações interativas, por meio de navegações diretamente nelas, o grupo precisa falar os seguintes aspectos de desenvolvimento do trabalho (sugere-se usar essa ordem na apresentação e cada membro falar de um aspecto):
+
+
+[2 min] Apresentar o grupo e o contexto do dataset usado: falar brevemente sobre os dados utilizados (do que se trata? onde foi obtido? como provavelmente os dados foram coletados?);
+[2 min] Abrir a visualização interativa e apresentar seus componentes visuais e recursos de interação;
+[2 min] Contar a primeira história da visualização, navegando por ela e acionando os elementos de interação necessários para a mesma;
+[2 min] Contar a segunda história da visualização, navegando por ela e acionando os elementos de interação necessários para a mesma;
+[2 min] Principais dificuldades enfrentadas na implementação do projeto (software).
+
+O grupo será avaliado pela entrega da visualização implementada conforme as instruções deste enunciado. Entregas incompletas serão penalizadas. Visualizações "quebradas" (com componentes de interação que não funcionarem) e/ou que não estejam utilizando o modelo disponibilizado também serão penalizadas. Também poderá haver penalizações em questões de boas práticas de visualização nos aspectos estéticos e científicos. Logo, caprichem! Tenham em mente que o resultado deste trabalho também pode constituir seu portfólio profissional no GitHub e isso te ajudar em processos seletivos do futuro.
+
+
+Quem deixar de entregar a atividade proposta dentro do prazo estabelecido, seguindo os passos especificados neste roteiro, ficará com nota zero na terceira nota da disciplina. Leia todo o roteiro com atenção, tire eventuais dúvidas antecipadamente, tenha cuidado com os prazos e certifique-se de submeter as informações corretas no formulário de envio!
